@@ -1,0 +1,180 @@
+* {
+  user-select: none;
+}
+
+/* body styling */
+body {
+  background-color: #47398D;
+  display: flex;
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+
+/* main div aligning */
+.App {
+  margin-top: 120%;
+  font-size: 350%;
+}
+
+/* Home page Styling */
+.Playbtn {
+  width: 200px;
+  height: 40px;
+  background-color: #0AB306;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Quiz page Styling*/
+.MainQuizDiv>h2 {
+  padding-top: 50px;
+}
+
+.MainQuizDiv {
+  background-color: White;
+  color: black;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 5%;
+}
+
+.Grids {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.Grids>button {
+  border-radius: 20px;
+  padding: 10px 250px;
+  background-color: #1EA1F1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Grids>button:hover {
+  background-color: #4c5ddf;
+}
+
+.MainQuizDiv>h3 {
+  padding-bottom: 60px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.MainQuizDiv>h5 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.616);
+}
+
+.flexDiv {
+  display: flex;
+}
+
+.alignFlexDiv>button {
+  border-radius: 0;
+  padding: 0;
+  margin: 0 10px;
+  padding: 10px 15px;
+}
+
+.alignFlexDiv {
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.blueBtn {
+  border: none;
+  background-color: #3E7EAA;
+}
+
+.blueBtn:hover {
+  background-color: #4a96c9;
+}
+
+.greenBtn {
+  background-color: #008001;
+  border: none;
+}
+
+.greenBtn:hover {
+  background-color: #0a950a;
+}
+
+.redBtn {
+  background-color: #FF0000;
+  border: none;
+}
+
+.redBtn:hover {
+  background-color: #f56868;
+}
+
+
+/* Result page Styling */
+
+.ResultMainDiv {
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.ResultMainDiv>h2 {
+  font-size: 35px;
+  color: #008001;
+}
+
+.ChildResultDiv {
+  margin: auto;
+  color: black;
+  padding-top: 50px;
+  background-color: white;
+  width: 700px;
+  height: 350px;
+}
+
+.ChildResultDiv>h1 {
+  font-size: 30px;
+  color: #3737FF;
+}
+
+.alignItems {
+  width: 650px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.alignItems>div>h4 {
+  width: 300px;
+}
+
+.endGameBtns>button {
+  padding: 25px 20px;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.endGameBtns {
+  display: flex;
+  justify-content: center;
+}
+
+
+.playAgainBtn {
+  color: #1EA1F1;
+  border: 2px solid #1EA1F1;
+}
+
+.backToHome {
+  color: #0AB306;
+  border: 2px solid #0AB306;
+}
